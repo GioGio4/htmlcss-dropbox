@@ -16,10 +16,20 @@ img{
     width: 100%;
 }
 
+
+/* Utils */
+
+.btn{
+    border-style: none;
+    width: 4rem;
+    height: 2rem;
+
+}
+
 /* HEADER */
 
 header{
-    min-height: 3rem;
+    height: 3rem;
 }
 
 .nav-container{
@@ -35,8 +45,15 @@ nav ul{
     align-items: center;
 }
 
+
+/* MAIN */
+
+/* Jumbotron */
+
 .jumbotron{
-    height: 41rem;
+    /* Debug */
+    /* height: 41rem; */
+
     background-color: #b4d0e7;
 }
 
@@ -64,3 +81,64 @@ nav ul{
     position: relative;
     height: 40rem;
 }
+
+/* Sezione abbonamenti  */
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    
+    height: 47rem;
+}
+
+.column-header{
+    border-bottom: 2px solid #e7e7e9;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.column{
+    /* debug */
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 30%;
+    border: 2px solid #e7e7e9;
+}
+
+.column ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.column ul li{
+    margin: 0.5rem 0;
+    padding:0 1rem;
+}
+
+.column-big{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 3rem;
+    border: 2px solid #e7e7e9;
+}
+
+.left{
+    position: relative;
+    margin: 1rem;
+}
+
+.absolute-btn{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
