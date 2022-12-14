@@ -1,0 +1,13 @@
+/* Container */
+
+.small-container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.big-container{
+    max-width: 1400px;
+    width: 100%;
+    padding: 1rem;
+}
