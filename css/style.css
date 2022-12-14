@@ -89,7 +89,7 @@ nav ul{
     align-items: stretch;
     flex-wrap: wrap;
     
-    height: 47rem;
+    min-height: 55rem;
 }
 
 .column-header{
@@ -99,9 +99,6 @@ nav ul{
 }
 
 .column{
-    /* debug */
-    height: 100%;
-
     display: flex;
     flex-direction: column;
 
@@ -142,3 +139,18 @@ nav ul{
     right: 0;
 }
 
+/* Sezione 2 */
+
+.box-section2{
+    display: flex;
+}
+
+.box-img{
+    width: 55%;
+}
+
+.box-text{
+    width: 45%;
+    padding: 3rem;
+
+}
