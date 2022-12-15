@@ -20,6 +20,15 @@ section{
     padding-top: 9rem;
 }
 
+.break-line{
+    width: 100px;
+}
+
+.break-line-margin{
+    width: 60px;
+    margin-left: 2rem;
+}
+
 /* FONT */
 
 h1{
@@ -292,8 +301,6 @@ nav ul li{
 }
 
 .small-box{
-    /* debug */
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,7 +310,7 @@ nav ul li{
     padding: 1rem;
 }
 .central-box{
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .small-box img {
@@ -313,7 +320,46 @@ nav ul li{
 
 .central-box img{
     width: 60%;
+    margin-bottom: 2rem;
 }
+
+.central-box p{
+    margin: 2rem 0;
+}
+
+/* Color box  */
+.small-box.green{
+   background-color: #a2d39b;
+   border: 10px solid #d1e9cd;
+}
+
+.small-box.red-wine{
+    background-color: #61082b;
+ }
+
+ .small-box.blue-med{
+    background-color: #0093ce;
+ }
+
+ .small-box.red{
+    background-color: #ff1c1c;
+ }
+
+ .central-box.light-gray{
+    background-color: #f5f5f5;
+ }
+
+ .small-box.light-blue{
+    background-color: #b4d0e7;
+ }
+
+ .small-box.blue{
+    background-color: #0d2481;
+ }
+
+ .small-box.yellow{
+    background-color: #ffd830;
+ }
 
 /* SEZIONE 6 */
 
