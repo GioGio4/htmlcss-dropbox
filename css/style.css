@@ -21,6 +21,7 @@ header a{
 
 .btn{
     border-style: none;
+    border: 1px solid transparent;
 }
 
 .btn.btn-primary{
@@ -53,13 +54,18 @@ section{
     padding-top: 7rem;
 }
 
+.bg-blue{
+    background-color: #b4d0e7 ;
+}
 
+.bg-white{
+    background-color: #b4d0e7 ;
+}
 /* MAIN */
 
 /* Jumbotron */
 
 .jumbotron{
-    background-color: #b4d0e7;
     min-height: 70vh;
 }
 
@@ -199,4 +205,29 @@ section{
 
 .central-box img{
     width: 60%;
+}
+
+/* SEZIONE 6 */
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/* SEZIONE 7 DOMANDE */
+
+.content-view{
+    padding: 2rem 0;
+}
+
+.content-hover{
+    width: 90%;
+    padding-top: 1rem;
+    display: none;
+}
+
+.content-view:hover .content-hover{
+    display: block;
 }
