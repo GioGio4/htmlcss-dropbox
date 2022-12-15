@@ -437,3 +437,12 @@ footer{
 
 .footer-col h3{
    margin: 2rem 0;}
+
+   .language-box{
+    display: flex;
+    padding: 3rem 0;
+   }
+
+   .language-box *{
+    margin-right: 1rem;
+   }
