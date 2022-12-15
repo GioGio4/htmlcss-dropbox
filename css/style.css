@@ -31,6 +31,18 @@ header a{
     border: 1px solid transparent;
 }
 
+.bg-blue{
+    background-color: #b4d0e7 ;
+}
+
+.bg-white{
+    background-color: #b4d0e7 ;
+}
+
+.bg-black{
+    background-color: black ;
+}
+
 /* HEADER */
 
 header{
@@ -54,13 +66,7 @@ section{
     padding-top: 7rem;
 }
 
-.bg-blue{
-    background-color: #b4d0e7 ;
-}
 
-.bg-white{
-    background-color: #b4d0e7 ;
-}
 /* MAIN */
 
 /* Jumbotron */
@@ -231,3 +237,29 @@ section{
 .content-view:hover .content-hover{
     display: block;
 }
+
+/* FOOTER */
+footer{
+    padding-top: 7rem;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-col{
+    width: calc(90% / 5);
+    padding-left: 1rem;
+}
+
+.footer-col ul{
+    list-style-type: none;
+}
+
+.footer-col ul li{
+    margin: 1rem 0;}
+
+.footer-col h3{
+   margin: 2rem 0;}
