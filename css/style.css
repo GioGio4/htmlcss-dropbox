@@ -7,12 +7,12 @@
 
 /* Generics */
 
-a{
+header a{
     text-decoration: none;
     color: inherit;
 }
 
-img{
+ img{
     width: 100%;
 }
 
@@ -21,15 +21,19 @@ img{
 
 .btn{
     border-style: none;
-    width: 4rem;
-    height: 2rem;
+}
 
+.btn.btn-primary{
+    background-color: #0061ff;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid transparent;
 }
 
 /* HEADER */
 
 header{
-    height: 3rem;
+    height: 4rem;
 }
 
 .nav-container{
@@ -45,42 +49,37 @@ nav ul{
     align-items: center;
 }
 
+section{
+    padding-top: 7rem;
+}
+
 
 /* MAIN */
 
 /* Jumbotron */
 
 .jumbotron{
-    /* Debug */
-    /* height: 41rem; */
-
     background-color: #b4d0e7;
+    min-height: 70vh;
 }
 
 .jumbo-card{
     display: flex;
-    padding-top: 2rem;
+    position: relative;
+    /* bottom: -200px; */
 }
 
 .jumbo-text{
-    /* debug */
-    background-color: red;
-
     display: flex;
     flex-direction: column;
-    width: 40%;
-    height: 33rem;
-
+    align-items: flex-start;
+    width: 35%;
 }
 
 .jumbo-img{
-     /* debug */
-    background-color: green;
-    width: 60%;
-
-    position: relative;
-    height: 40rem;
+    width: 65%;
 }
+
 
 /* Sezione abbonamenti  */
 .row{
@@ -164,4 +163,40 @@ nav ul{
     width: 30%;
     height: 30rem;
     
+}
+
+/* SEZIONE 5 PARTNER */
+
+.sponsor-row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw/3);
+}
+
+.small-box{
+    /* debug */
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: calc(100vw / 3 / 2);
+    padding: 1rem;
+}
+.central-box{
+    padding: 2rem;
+}
+
+.small-box img {
+    width: 70%;
+    filter: invert();
+}
+
+.central-box img{
+    width: 60%;
 }
