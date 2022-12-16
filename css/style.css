@@ -7,6 +7,10 @@
 
 /* Generics */
 
+html{
+    scroll-behavior: smooth;
+}
+
 header a{
     text-decoration: none;
     color: inherit;
@@ -193,6 +197,13 @@ li.border-hover:hover{
     margin: auto 0;
     font-size: 3rem;
 }
+
+.icon-link a{
+    text-decoration: none;
+    color:  #0061ff;
+
+}
+
 .jumbo-img{
     width: 70%;
 }
